@@ -1,0 +1,5 @@
+{
+  "name": "Productive AI Calendar",
+  "description": "A smart calendar that automatically schedules your day based on natural language task descriptions.",
+  "requestFramePermissions": []
+}
