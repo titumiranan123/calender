@@ -47,7 +47,7 @@ export default function App() {
 
   const handleSendMessage = async (content: string) => {
     console.log("handleSendMessage called with:", content);
-    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+    const apiKey = import.meta.env.GEMINI_API_KEY;
     console.log("API Key present:", !!apiKey);
 
     if (!apiKey) {
